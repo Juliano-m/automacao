@@ -1,13 +1,18 @@
 package avaliacao.automacao_ntt;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AppTest {
 
     @Test
-    public void shouldAnswerWithTrue() {
-        assertTrue(true);
+    public void abreEndereco() {
+    	System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+    	WebDriver browser = new ChromeDriver();
+    	browser.navigate().to("https://demo.automationtesting.in/Alerts.html");
+    	
+      
     }
 
 }
