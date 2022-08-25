@@ -2,6 +2,7 @@ package avaliacao.automacao_ntt;
 
 import java.util.concurrent.TimeUnit;
 
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -20,8 +21,9 @@ public class Desafio2 {
 		
 	@BeforeEach
 	public void openUrl() {
-		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver_1.exe");
     	browser = new ChromeDriver();
+    	browser.manage().window().maximize();
     	browser.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS).pageLoadTimeout(5, TimeUnit.SECONDS);
     	browser.navigate().to("https://demo.automationtesting.in/Alerts.html");
 	}

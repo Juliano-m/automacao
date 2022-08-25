@@ -16,7 +16,7 @@ public class Desafio1 {
 
 	@BeforeEach
 	public void openUrl() {
-		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver_1.exe");
     	browser = new ChromeDriver();
     	browser.manage().deleteAllCookies();
     	browser.manage().window().maximize();
