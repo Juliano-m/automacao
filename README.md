@@ -1,4 +1,4 @@
-# Teste Automatizado
+# Teste Automatizado com Selenium
 
 No primeiro desafio, foi criado um script de teste para o site https://www.kabum.com.br/. Onde, ao buscar por um item em específico, sendo este retornado, adicionamos o mesmo ao carrinho de compras. Sendo este, adicionado com sucesso, verificamos se o valor/quantidade final do item adicionado é igual ao valor/quantidade do item selecionado inicialmente.
 
