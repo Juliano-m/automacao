@@ -14,7 +14,7 @@ As seguintes instruções fornecerão alguns parâmetros básicos para execuçã
 
 ### Pré-requisitos
 
-Estes foram os principais itens utilizadas e suas respectivas versões: 
+Estes foram os principais itens utilizados e suas respectivas versões: 
 
     Eclipse IDE for Java Developers - Version: 2022-06 (4.24.0)
     Java SE Development Kit - Version: 18.0.2.1
@@ -46,6 +46,12 @@ Um guia passo a passo que lhe dirá como colocar o ambiente de desenvolvimento e
 ## Observações
 
 Este é um projeto básico, com muitas possíveis melhorias, como por exemplo adicionar o padrão Page Object ao projeto.
+
+## Autor
+
+Juliano Marçal Correia
+- marcal.j13@gmail.com
+- www.linkedin.com/in/juliano-marçal-29248a127
  
 
 
