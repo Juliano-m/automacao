@@ -2,7 +2,6 @@ package avaliacao.automacao_ntt;
 
 import java.util.concurrent.TimeUnit;
 
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -11,7 +10,6 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -21,8 +19,7 @@ public class Desafio2 {
 		
 	@BeforeEach
 	public void openUrl() {
-		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver_1.exe");
-    	browser = new ChromeDriver();
+		browser = new BrowserFactory().createWebDriver();
     	browser.manage().window().maximize();
     	browser.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS).pageLoadTimeout(5, TimeUnit.SECONDS);
     	browser.navigate().to("https://demo.automationtesting.in/Alerts.html");
