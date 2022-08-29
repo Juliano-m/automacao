@@ -27,6 +27,7 @@ public class Desafio2 {
 	
 	@AfterEach
 	public void close() {
+		browser.manage().deleteAllCookies();
 		browser.close();
 	}
 	
