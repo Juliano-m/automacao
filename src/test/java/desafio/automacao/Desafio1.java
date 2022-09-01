@@ -1,4 +1,4 @@
-package avaliacao.automacao_ntt;
+package desafio.automacao;
 
 import java.util.concurrent.TimeUnit;
 
@@ -39,12 +39,13 @@ public class Desafio1 {
     	Thread.sleep(2000);
     	browser.findElement(By.xpath("//*[@id=\"listing\"]"
     			+ "/div[3]/div/div[2]/div[1]/main/div/div[2]/div[2]/button")).click();
-    	String priceFinal = browser.findElement(By.xpath("//*[@id=\"__next\"]/"
-    			+ "div[1]/section/div/div[2]/div[2]/div[3]/strong")).getText();
+    	String priceFinal = browser.findElement(By.xpath("//*[@id=\"__next\"]"
+    			+ "/div[1]/div[1]/div[1]/div/div/div[1]/div[2]/div[3]/strong")).getText();
     	
     	Assertions.assertTrue(price.equals(priceFinal));
     	
     	Thread.sleep(2000);
+    	    	
     	    	
     }
 

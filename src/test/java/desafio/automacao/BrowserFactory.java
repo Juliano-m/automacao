@@ -1,4 +1,4 @@
-package avaliacao.automacao_ntt;
+package desafio.automacao;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

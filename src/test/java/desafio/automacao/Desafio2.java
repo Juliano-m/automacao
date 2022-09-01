@@ -1,4 +1,4 @@
-package avaliacao.automacao_ntt;
+package desafio.automacao;
 
 import java.util.concurrent.TimeUnit;
 
