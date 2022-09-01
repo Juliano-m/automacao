@@ -1,4 +1,4 @@
-package desafio.automacao;
+package desafio.automacao.pages;
 
 import java.util.concurrent.TimeUnit;
 
@@ -13,7 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Desafio2 {
+public class Desafio2Page {
 
 	private WebDriver browser;
 		

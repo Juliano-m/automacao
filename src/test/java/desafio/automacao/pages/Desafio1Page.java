@@ -1,4 +1,4 @@
-package desafio.automacao;
+package desafio.automacao.pages;
 
 import java.util.concurrent.TimeUnit;
 
@@ -10,7 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 
-public class Desafio1 {
+public class Desafio1Page {
 	
 	private static WebDriver browser;
 
